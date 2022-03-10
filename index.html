@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Amicable Numbers Assignment</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+        <script src="amicable.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="form">
+            <form>
+                <h1>Amicable Numbers</h1>
+                <p>This page will tell you if two numbers are amicable. Please enter two whole numbers below.</p>
+                <label for="number1">Enter the first number:</label>
+                <br />
+                <input type="text" id="number1">
+                <br />
+                <label for="number2">Enter the second number:</label>
+                <br />
+                <input type="text" id="number2">
+                <br /><br />
+                <input id="btn" type="button" value="Submit" onclick="amicable();" />
+            </form>
+        </div>
+        <h2>Your results:</h2>
+        <div id="amicable"></div>
+        <h2>Factors of numbers:</h2>
+        <div id="factors"></div>
+    </body>
+</html>
